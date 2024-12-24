@@ -13,8 +13,9 @@ function Homepage() {
         </div>
         <h1>MechFind</h1>
       </header>
-      <div>
-        This is the homepage. Under Construction.
+      <div className="search-bar-container">
+        <div>SearchBar</div>
+        <div>SearchResults</div>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import { SearchBar } from '../components/Searchbar';
 import '../css/Homepage.css';
 
 function Homepage() {
@@ -13,8 +14,9 @@ function Homepage() {
         </div>
         <h1>MechFind</h1>
       </header>
-      <div>
-        This is the homepage. Under Construction.
+      <div className="search-bar-container">
+        <SearchBar />
+        <div>SearchResults</div>
       </div>
     </div>
   );
