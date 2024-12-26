@@ -12,7 +12,7 @@ export const SearchBar = () => {
       <input 
       placeholder="Enter your zipcode..." 
       value={zipcode} 
-      onChange={(e) => setZipcode(e.target.value)}
+      onChange={(e) => setZipcode(e.target.value)} //need to add logic to make sure input is numbers only and max length of 5
       />
     </div>
   );

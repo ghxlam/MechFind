@@ -4,13 +4,18 @@
 
 .Homepage-header {
   background-color: #282c34;
-  display: block;
-  padding: 0.2px;
+  display: flex;
   flex-direction: row;
-  align-items: flex;
-  justify-content: center;
-  font-size: calc(8px + 2vmin);
-  color: white;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(2px + 2vmin);
+  color: rgb(239, 232, 232);
+  height: 70px;
+}
+h1 {
+  margin: 0; /* Remove default margin */
+  letter-spacing: 2px; /* Space out letters */
+  padding-left: 2rem; /* Add padding to move the title slightly inward */
 }
 
 .Homepage-nav div {
@@ -23,11 +28,11 @@
 .Homepage-nav {
   width: 30px;
   display: block;
-  margin: 1em 0 0 1em;
+  margin: 0.5em 0 0 1em;
 }
 
 .search-bar-container {
-  padding-top: 20vh;
+  padding-top: 2rem;
   width: 60%;
   margin: auto;
   display: flex;
