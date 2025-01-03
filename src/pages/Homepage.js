@@ -1,4 +1,5 @@
 import { SearchBar } from '../components/Searchbar';
+import Map from '../components/Map';
 import '../css/Homepage.css';
 
 function Homepage() {
@@ -12,12 +13,14 @@ function Homepage() {
             <div className="three"></div>
           </a>
         </div>
+          <div className="search-bar-container">
+          <SearchBar />
+        </div>
         <h1>MechFind</h1>
       </header>
-      <div className="search-bar-container">
-        <SearchBar />
-        <div>SearchResults</div>
-      </div>
+      <map>
+        <Map />
+      </map>
     </div>
   );
 }
